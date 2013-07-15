@@ -140,7 +140,7 @@ body{
 .tf_fullscreen:hover{
 	opacity:0.9;
 }
-.reference{
+.reference, .reference2{
 	position:fixed;
 	bottom:0px;
 	right:0px;
@@ -151,6 +151,7 @@ body{
 	text-shadow:1px 1px 1px #000;
 	z-index:999;
 	opacity:0.8;
+	padding-right: 10px;
 }
 .description{
 	position:fixed;
@@ -161,6 +162,14 @@ body{
 }
 .reference a, .description span{
 	color:#000;
+	text-transform: uppercase;
+	margin-left:20px;
+	text-decoration:none;
+	font-family:Arial;
+	font-size:10px;
+}
+.reference2 a {
+	color:#FFF;
 	text-transform: uppercase;
 	margin-left:20px;
 	text-decoration:none;
